@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - GraphHopper",
+	"description": "This is a repository of graphhopper APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/graphhopper.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://graphhopper.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "GraphHopper",
+			"x-api-slug": "graphhopper",
+			"description": "Use our web services to add route planning, navigation and traffic aware route optimization to your application in the food delivery industry or for traveling salesmen. We help you to optimize the routes in your logistics, GIS or real estate software.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/graphhopper-logo-small-300x51.png",
+			"humanURL": "https://graphhopper.com",
+			"baseURL": "https://graphhopper.com//api/1/vrp",
+			"tags": "GraphHopper",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/graphhopper/master/_listings/graphhopper/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "GraphHopper",
+	"include": [
+		{
+			"name": "GraphHopper",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/graphhopper/master/_listings/graphhopper/apis.yaml"
+		}
+	]
+}

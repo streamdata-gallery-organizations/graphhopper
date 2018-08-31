@@ -9,11 +9,33 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: GraphHopper
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/graphhopper/master/_listings/graphhopper/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Route Optimization - Solves vehicle routing problems
+  x-api-slug: optimize-post
+  description: This endpoint for solving vehicle routing problems, i.e. traveling
+    salesman or vehicle routing problems, and returns the solution.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/graphhopper-logo-small-300x51.png
+  humanURL: https://graphhopper.com
+  baseURL: https://graphhopper.com//api/1/vrp
+  tags: Travel, Routes, Relative Data, Service API, General Data, Maps
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/graphhopper/master/_listings/graphhopper/optimize-post-openapi.md
+- name: Route Optimization - Return the solution associated to the jobId
+  x-api-slug: solutionjobid-get
+  description: This endpoint returns the solution of a large problems. You can fetch
+    it with the job_id, you have been sent.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/graphhopper-logo-small-300x51.png
+  humanURL: https://graphhopper.com
+  baseURL: https://graphhopper.com//api/1/vrp
+  tags: Travel, Routes, Relative Data, Service API, General Data, Maps
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/graphhopper/master/_listings/graphhopper/solutionjobid-get-openapi.md
 x-common:
 - type: x-website
   url: https://graphhopper.com
